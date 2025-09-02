@@ -11,6 +11,11 @@ export interface Book {
   reviews: number;
   inStock: boolean;
   isbn: string;
+  publisher?: string;
+  publishedDate?: string;
+  pages?: number;
+  language?: string;
+  featured?: boolean;
 }
 
 export interface CartItem extends Book {
@@ -25,4 +30,22 @@ export interface CartContextType {
   clearCart: () => void;
   getTotalPrice: () => number;
   getTotalItems: () => number;
+}
+
+export interface WishlistContextType {
+  items: Book[];
+  addToWishlist: (book: Book) => void;
+  removeFromWishlist: (bookId: string) => void;
+  isInWishlist: (bookId: string) => boolean;
+  clearWishlist: () => void;
+}
+
+export interface FilterOptions {
+  category: string;
+  minPrice: number;
+  maxPrice: number;
+  minRating: number;
+  sortBy: 'title' | 'price' | 'rating' | 'newest';
+  sortOrder: 'asc' | 'desc';
+  inStockOnly: boolean;
 }

@@ -8,12 +8,17 @@ export const books: Book[] = [
     price: 18.99,
     originalPrice: 24.99,
     image: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=300&h=400&fit=crop',
-    description: 'Una obra maestra del realismo mágico que narra la historia de la familia Buendía a lo largo de siete generaciones.',
+    description: 'Una obra maestra del realismo mágico que narra la historia de la familia Buendía a lo largo de siete generaciones en el pueblo ficticio de Macondo.',
     category: 'Literatura',
     rating: 4.8,
     reviews: 1250,
     inStock: true,
-    isbn: '978-0-06-088328-7'
+    isbn: '978-0-06-088328-7',
+    publisher: 'Editorial Sudamericana',
+    publishedDate: '1967-05-30',
+    pages: 417,
+    language: 'Español',
+    featured: true
   },
   {
     id: '2',
@@ -21,12 +26,17 @@ export const books: Book[] = [
     author: 'Miguel de Cervantes',
     price: 22.50,
     image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=400&fit=crop',
-    description: 'La obra cumbre de la literatura española que relata las aventuras del ingenioso hidalgo.',
+    description: 'La obra cumbre de la literatura española que relata las aventuras del ingenioso hidalgo Don Quijote y su fiel escudero Sancho Panza.',
     category: 'Clásicos',
     rating: 4.6,
     reviews: 890,
     inStock: true,
-    isbn: '978-0-14-243723-0'
+    isbn: '978-0-14-243723-0',
+    publisher: 'Planeta',
+    publishedDate: '1605-01-16',
+    pages: 863,
+    language: 'Español',
+    featured: true
   },
   {
     id: '3',
@@ -35,12 +45,17 @@ export const books: Book[] = [
     price: 12.99,
     originalPrice: 16.99,
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop',
-    description: 'Una fábula poética que nos enseña sobre la amistad, el amor y la pérdida de la inocencia.',
+    description: 'Una fábula poética que nos enseña sobre la amistad, el amor y la pérdida de la inocencia a través de los ojos de un pequeño príncipe.',
     category: 'Infantil',
     rating: 4.9,
     reviews: 2100,
     inStock: true,
-    isbn: '978-0-15-601219-5'
+    isbn: '978-0-15-601219-5',
+    publisher: 'Salamandra',
+    publishedDate: '1943-04-06',
+    pages: 96,
+    language: 'Español',
+    featured: true
   },
   {
     id: '4',
@@ -48,12 +63,16 @@ export const books: Book[] = [
     author: 'George Orwell',
     price: 15.75,
     image: 'https://images.unsplash.com/photo-1495640388908-05fa85288e61?w=300&h=400&fit=crop',
-    description: 'Una distopía que explora temas de totalitarismo, vigilancia y manipulación de la verdad.',
+    description: 'Una distopía que explora temas de totalitarismo, vigilancia y manipulación de la verdad en una sociedad controlada por el Gran Hermano.',
     category: 'Ciencia Ficción',
     rating: 4.7,
     reviews: 1580,
     inStock: true,
-    isbn: '978-0-452-28423-4'
+    isbn: '978-0-452-28423-4',
+    publisher: 'Debolsillo',
+    publishedDate: '1949-06-08',
+    pages: 326,
+    language: 'Español'
   },
   {
     id: '5',
@@ -61,12 +80,16 @@ export const books: Book[] = [
     author: 'Jane Austen',
     price: 14.99,
     image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&h=400&fit=crop',
-    description: 'Una novela romántica que critica la sociedad inglesa del siglo XIX.',
+    description: 'Una novela romántica que critica la sociedad inglesa del siglo XIX a través de la historia de Elizabeth Bennet y Mr. Darcy.',
     category: 'Romance',
     rating: 4.5,
     reviews: 1320,
     inStock: false,
-    isbn: '978-0-14-143951-8'
+    isbn: '978-0-14-143951-8',
+    publisher: 'Penguin Classics',
+    publishedDate: '1813-01-28',
+    pages: 279,
+    language: 'Español'
   },
   {
     id: '6',
@@ -75,12 +98,16 @@ export const books: Book[] = [
     price: 19.99,
     originalPrice: 25.99,
     image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=300&h=400&fit=crop',
-    description: 'Una breve historia de la humanidad desde la Edad de Piedra hasta la era digital.',
+    description: 'Una breve historia de la humanidad desde la Edad de Piedra hasta la era digital, explorando cómo el Homo sapiens llegó a dominar el mundo.',
     category: 'Historia',
     rating: 4.4,
     reviews: 980,
     inStock: true,
-    isbn: '978-0-06-231609-7'
+    isbn: '978-0-06-231609-7',
+    publisher: 'Debate',
+    publishedDate: '2011-01-01',
+    pages: 496,
+    language: 'Español'
   },
   {
     id: '7',
@@ -88,12 +115,16 @@ export const books: Book[] = [
     author: 'Paulo Coelho',
     price: 13.50,
     image: 'https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=300&h=400&fit=crop',
-    description: 'Una fábula sobre seguir los sueños y encontrar el tesoro que llevamos dentro.',
+    description: 'Una fábula sobre seguir los sueños y encontrar el tesoro que llevamos dentro, siguiendo el viaje de Santiago, un joven pastor andaluz.',
     category: 'Autoayuda',
     rating: 4.3,
     reviews: 1750,
     inStock: true,
-    isbn: '978-0-06-250217-6'
+    isbn: '978-0-06-250217-6',
+    publisher: 'Planeta',
+    publishedDate: '1988-01-01',
+    pages: 163,
+    language: 'Español'
   },
   {
     id: '8',
@@ -101,12 +132,53 @@ export const books: Book[] = [
     author: 'Gabriel García Márquez',
     price: 16.25,
     image: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=300&h=400&fit=crop',
-    description: 'Una novela corta que reconstruye la historia de un asesinato anunciado.',
+    description: 'Una novela corta que reconstruye la historia de un asesinato anunciado en un pueblo del Caribe colombiano.',
     category: 'Literatura',
     rating: 4.6,
     reviews: 670,
     inStock: true,
-    isbn: '978-1-4000-3471-0'
+    isbn: '978-1-4000-3471-0',
+    publisher: 'Editorial Sudamericana',
+    publishedDate: '1981-01-01',
+    pages: 122,
+    language: 'Español'
+  },
+  {
+    id: '9',
+    title: 'Dune',
+    author: 'Frank Herbert',
+    price: 21.99,
+    originalPrice: 28.99,
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=400&fit=crop',
+    description: 'Una épica de ciencia ficción ambientada en el desierto planeta Arrakis, donde las especias son más valiosas que el oro.',
+    category: 'Ciencia Ficción',
+    rating: 4.5,
+    reviews: 2340,
+    inStock: true,
+    isbn: '978-0-441-17271-9',
+    publisher: 'Nova',
+    publishedDate: '1965-08-01',
+    pages: 688,
+    language: 'Español',
+    featured: true
+  },
+  {
+    id: '10',
+    title: 'Harry Potter y la Piedra Filosofal',
+    author: 'J.K. Rowling',
+    price: 17.50,
+    image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=400&fit=crop',
+    description: 'El primer libro de la saga que nos introduce al mundo mágico de Hogwarts y las aventuras del joven mago Harry Potter.',
+    category: 'Fantasía',
+    rating: 4.8,
+    reviews: 3200,
+    inStock: true,
+    isbn: '978-0-439-70818-8',
+    publisher: 'Salamandra',
+    publishedDate: '1997-06-26',
+    pages: 223,
+    language: 'Español',
+    featured: true
   }
 ];
 
@@ -118,5 +190,6 @@ export const categories = [
   'Ciencia Ficción',
   'Romance',
   'Historia',
-  'Autoayuda'
+  'Autoayuda',
+  'Fantasía'
 ];
